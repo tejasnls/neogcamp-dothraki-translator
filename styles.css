@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+:root {
+    --primary-color: #463f3a;
+    --text-color: #f4f3ee;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster Two', cursive;
+    margin: 0;
+}
+header, button {
+    text-transform: capitalize;
+}
+
+
+.header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+#main {
+    margin: auto;
+    max-width: 600px;
+    padding: 1rem;
+    display: block;
+}
+
+#main header {
+    font-size: 1.8rem;
+}
+
+#user-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  min-height: 20vh;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+#btn-translate {
+    padding: 1rem 3rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px white solid;
+    margin: 1.5rem auto;
+    display: block;
+    font-family: 'Lobster Two', cursive;
+}
+
+#btn-translate:hover {
+    background-color: #8a817c;
+    cursor: pointer;
+    border: 1px var(--primary-color) solid;
+    color: var(--text-color);
+}
+
+#translatedOutput {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    border: 1px var(--primary-color) solid;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    padding: 1rem;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    background-color: var(--primary-color);
+    padding: 0rem 1rem 1rem 1rem;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
+#footer-about {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: var(--text-color);
+}
+
+footer p {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 0.5rem;
+}
